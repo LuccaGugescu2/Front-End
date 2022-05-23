@@ -28,6 +28,10 @@ In this approach you would be using SSR for web in your universal project. This 
 
 ### 🏁 New Commands
 
+- **Starting android or ios**
+  - 🚫 `expo start:web`
+  - ✅ `yarn run web`
+
 - **Starting web**
   - 🚫 `expo start:web`
   - ✅ `yarn next dev`
