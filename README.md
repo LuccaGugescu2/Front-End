@@ -16,16 +16,13 @@ For the most updated guide you should refer to the Expo docs: [Using Next.js](ht
 In this approach you would be using SSR for web in your universal project. This is the recommended path because it gives you full access to the features of Expo and Next.js.
 
 - Bootstrap your project with Expo
-  - Install the CLI: `npm i -g expo-cli`
-  - Create a project: `expo init --template blank`
+  - Install the dependency: `yarn install`
   - `cd` into the project
 - Install the adapter:
   - **yarn:** `yarn add @expo/next-adapter`
   - npm: `npm i --save @expo/next-adapter`
 - Add Next.js support: `yarn next-expo`
   - Always commit your changes first!
-  - You can optionally choose which customizations you want to do with `--customize or -c`
-  - Force reload changes with `--force or -f`
 - Start the project with `yarn next dev`
   - Go to `http://localhost:3000/` to see your project!
 
