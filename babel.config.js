@@ -25,7 +25,7 @@ module.exports = {
                     "@utils": ["./utils"],
                     "@public": ["./public"],
                     "@interfaces": ["./interfaces"],
-                    "@navigation": ["./interfaces"]
+                    "@navigation": ["./interfaces"],
                 },
             },
         ],
